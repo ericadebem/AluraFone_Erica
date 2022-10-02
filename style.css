@@ -43,6 +43,13 @@ input[type=button] {
   height: 80px;
   width: 80px;
 }
+input[type=button]:hover {
+  background-color: darkgray;
+}
+
+input[type=button]:active {
+  background-color: green;
+}
 
 .ajuste {
   display: flex;
@@ -57,18 +64,8 @@ input[type=tel] {
   margin-bottom: 24px;
   padding: 10px;
   text-align: center;
-  width: 190px;
+  width: 270px;
   margin-right: 6px;
-}
-
-input[type=reset] {
-  background-color: aqua;
-  border-radius: 10px;
-  cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
-  height: 40px;
-  width: 50px;
-  margin-bottom: 24px;
 }
 
 .ativa {
@@ -82,3 +79,4 @@ footer {
   text-align: center;
   width: 100%;
 }
+
