@@ -27,6 +27,20 @@ h1 {
   color: #fff;
 }
 
+button {
+  border-radius: 10px;
+  cursor: pointer;
+  height: 40px;
+  width: 50px;
+  border: none;
+}
+button:hover {
+  background-color: darkgray;
+}
+button:active {
+  background-color: green;
+}
+
 .teclado {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -64,12 +78,12 @@ input[type=tel] {
   margin-bottom: 24px;
   padding: 10px;
   text-align: center;
-  width: 270px;
+  width: 210px;
   margin-right: 6px;
 }
 
 .ativa {
-  background-color: yellow;
+  background-color: red;
 }
 
 footer {
